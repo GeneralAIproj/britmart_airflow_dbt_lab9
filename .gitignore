@@ -1,0 +1,31 @@
+
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Airflow runtime files
+airflow.db
+airflow.cfg
+logs/
+standalone_admin_password.txt
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# Editor and OS files
+.vscode/
+.DS_Store
+
+
+# Local Airflow environment
+.airflow/
+
+# Local DuckDB databases
+*.duckdb
+*.duckdb.wal
