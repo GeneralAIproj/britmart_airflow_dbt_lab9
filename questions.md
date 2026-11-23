@@ -21,3 +21,8 @@ Implementation: `dags/britmart_dbt_run.py`
 
 Implementation: `dags/britmart_dbt_run_test.py`
 
+
+### Question 4:  
+B. Airflow can orchestrate dbt commands while dbt manages transformation logic.
+
+
